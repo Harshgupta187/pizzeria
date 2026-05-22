@@ -1,0 +1,217 @@
+
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar-brand-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff !important;
+  letter-spacing: 1px;
+}
+
+
+.veg-indicator {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #28a745;
+  margin-bottom: 8px;
+}
+
+.nonveg-indicator {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #dc3545;
+  margin-bottom: 8px;
+}
+
+
+.pizza-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  background: #fff;
+  height: 100%;
+}
+
+.pizza-card h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.pizza-card .pizza-image {
+  width: 100%;
+  max-width: 180px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.pizza-card .price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.pizza-card .description {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.pizza-card .info-label {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.pizza-card .info-text {
+  font-size: 0.85rem;
+  color: #444;
+}
+
+
+.build-subtitle {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.ingredient-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.ingredient-table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  vertical-align: middle;
+}
+
+.ingredient-table img {
+  width: 90px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.ingredient-name-price {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.ingredient-price {
+  font-weight: 700;
+  margin-left: 12px;
+}
+
+.add-link {
+  color: #e67e22;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.95rem;
+  margin-left: 6px;
+  text-decoration: none;
+}
+
+.total-cost-text {
+  color: #00008B;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.build-pizza-btn {
+  background-color: #1a1a1a;
+  color: #ffc107;
+  border: 2px solid #ffc107;
+  padding: 10px 40px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.build-pizza-btn:hover {
+  background-color: #333;
+  color: #ffc107;
+}
+
+.build-pizza-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+.home-section {
+  background: #fff;
+  padding: 30px 40px;
+  border: 1px solid #e8e8e8;
+}
+
+.home-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.home-section p {
+  font-size: 0.92rem;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.home-story-img {
+  width: 100%;
+  max-width: 280px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.home-chef-img {
+  width: 100%;
+  max-width: 340px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.home-delivery-img {
+  width: 100%;
+  max-width: 280px;
+  height: 220px;
+  object-fit: cover;
+}
+
+
+.cart-table th {
+  background-color: #343a40;
+  color: #fff;
+  font-weight: 600;
+}
+
+.cart-total {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+
+.site-footer {
+  text-align: center;
+  padding: 14px;
+  color: #e67e22;
+  font-size: 0.88rem;
+  background: #fff;
+  border-top: 1px solid #eee;
+  margin-top: 20px;
+}
